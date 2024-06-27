@@ -5,15 +5,20 @@ import services.ReciboService;
 import services.impl.EmpleadoServiceImpl;
 import services.impl.ReciboServiceImpl;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Sistema {
+    ArrayList<Mensual> empleadosMensuales;
+    ArrayList<Jornal> empleadosJornales;
     private EmpleadoService empleadoService;
     private ReciboService reciboService;
 
     public Sistema() {
         this.empleadoService = new EmpleadoServiceImpl();
         this.reciboService = new ReciboServiceImpl();
+        this.empleadosMensuales = new ArrayList<>();
+        this.empleadosJornales = new ArrayList<>();
     }
 
     public void menu() throws InterruptedException {

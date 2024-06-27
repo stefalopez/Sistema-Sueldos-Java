@@ -6,24 +6,33 @@ public class Mensual extends Empleado {
     private Double basicoFijo;
     private String funcion;
 
-    public Mensual(Integer id, String nombre, String DNI, Date fechaIngreso, Date fechaEgreso, Double basicoFijo, String funcion) {
-        super(id, nombre, DNI, fechaIngreso, fechaEgreso);
+    public Mensual() {
+    }
+
+    public Mensual(Integer id, String nombre, String dni, Date fechaIngreso, Date fechaEgreso, Double basicoFijo, String funcion) {
+        super(id, nombre, dni, fechaIngreso, fechaEgreso);
         this.basicoFijo = basicoFijo;
         this.funcion = funcion;
     }
 
-    public Double getBasico() {
+    public Double getBasicoFijo() {
         return basicoFijo;
     }
 
-    public void setBasico(Double basico) {
-        this.basicoFijo = basico;
+    public void setBasicoFijo(Double basicoFijo) {
+        this.basicoFijo = basicoFijo;
+    }
+
+    public String getFuncion() {
+        return funcion;
+    }
+
+    public void setFuncion(String funcion) {
+        this.funcion = funcion;
     }
 
     @Override
     public String toString() {
-        return "Mensual{" +
-                "basico=" + basicoFijo +
-                '}';
+        return super.toString();
     }
 }

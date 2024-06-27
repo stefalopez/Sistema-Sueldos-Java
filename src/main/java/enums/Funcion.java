@@ -5,9 +5,9 @@ public enum Funcion {
     ADMINISTRACION("Administración"),
     RRHH("Recursos Humanos"),
     MARKETING("Marketing"),
-    COMERCIO_EXTERIOR("Comercio Exterior"),
     CAPACITADOR("Capacitador"),
-    SISTEMAS("Sistemas");
+    SISTEMAS("Sistemas"),
+    CONTADOR("Contador");
 
     private String name;
 

@@ -1,8 +1,8 @@
 package models;
 
 public class Sueldo {
-    Double basico;
-    Double antiguedad;
-    Double descuentos;
-    Double impGanancias;
+    private Double basico;
+    private Double antiguedad;
+    private Double descuentos;
+    private Double impGanancias;
 }

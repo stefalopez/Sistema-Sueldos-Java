@@ -5,14 +5,17 @@ import java.util.Date;
 public class Empleado {
     private Integer id;
     private String nombre;
-    private String DNI;
+    private String dni;
     private Date fechaIngreso;
     private Date fechaEgreso;
 
-    public Empleado(Integer id, String nombre, String DNI, Date fechaIngreso, Date fechaEgreso) {
+    public Empleado() {
+    }
+
+    public Empleado(Integer id, String nombre, String dni, Date fechaIngreso, Date fechaEgreso) {
         this.id = id;
         this.nombre = nombre;
-        this.DNI = DNI;
+        this.dni = dni;
         this.fechaIngreso = fechaIngreso;
         this.fechaEgreso = fechaEgreso;
     }
@@ -33,12 +36,12 @@ public class Empleado {
         this.nombre = nombre;
     }
 
-    public String getDNI() {
-        return DNI;
+    public String getDni() {
+        return dni;
     }
 
-    public void setDNI(String DNI) {
-        this.DNI = DNI;
+    public void setDni(String dni) {
+        this.dni = dni;
     }
 
     public Date getFechaIngreso() {
@@ -62,7 +65,7 @@ public class Empleado {
         return "Empleado{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
-                ", DNI='" + DNI + '\'' +
+                ", dni='" + dni + '\'' +
                 ", fechaIngreso=" + fechaIngreso +
                 ", fechaEgreso=" + fechaEgreso +
                 '}';

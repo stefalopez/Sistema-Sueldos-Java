@@ -1,9 +1,9 @@
 package models;
 
-public class Recibo {
+public class Recibo <T> {
     private String periodo;
     private Empleado empleado;
-    private Sueldo sueldo;
+    private T sueldo;
 
     public Recibo(String periodo, Empleado empleado) {
         this.periodo = periodo;
@@ -27,15 +27,15 @@ public class Recibo {
         this.empleado = empleado;
     }
 
-    public Sueldo getSueldo() {
+    public T getSueldo() {
         return sueldo;
     }
 
-    public void setSueldo(Sueldo sueldo) {
+    public void setSueldo(T sueldo) {
         this.sueldo = sueldo;
     }
 
-    public Sueldo calcularSueldo(){
+    public T calcularSueldo(){
         return sueldo;
     }
 

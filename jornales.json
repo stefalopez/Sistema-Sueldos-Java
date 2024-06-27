@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laura Fernández",
+    "dni": "45678901",
+    "fechaIngreso": "2020-03-10T00:00:00Z",
+    "fechaEgreso": null,
+    "horasTrabajadas": 80,
+    "valorHora": 2400.5,
+    "cantidadProduccion": 180.0
+  },
+  {
+    "id": 2,
+    "nombre": "Javier López",
+    "dni": "78901234",
+    "fechaIngreso": "2021-05-20T00:00:00Z",
+    "fechaEgreso": null,
+    "horasTrabajadas": 90,
+    "valorHora": 1450.25,
+    "cantidadProduccion": 200.0
+  },
+  {
+    "id": 3,
+    "nombre": "Martín Castro",
+    "dni": "90123456",
+    "fechaIngreso": "2019-08-10T00:00:00Z",
+    "fechaEgreso": null,
+    "horasTrabajadas": 85,
+    "valorHora": 2100.75,
+    "cantidadProduccion": 190.0
+  },
+  {
+    "id": 4,
+    "nombre": "Marcela Ruiz",
+    "dni": "87654321",
+    "fechaIngreso": "2020-06-30T00:00:00Z",
+    "fechaEgreso": null,
+    "horasTrabajadas": 95,
+    "valorHora": 1300.99,
+    "cantidadProduccion": 210.0
+  },
+  {
+    "id": 5,
+    "nombre": "Pablo Medina",
+    "dni": "76543210",
+    "fechaIngreso": "2019-04-12T00:00:00Z",
+    "fechaEgreso": "2022-09-17T00:00:00Z",
+    "horasTrabajadas": 75,
+    "valorHora": 2800.99,
+    "cantidadProduccion": 170.0
+  },
+  {
+    "id": 6,
+    "nombre": "Alejandra Gutiérrez",
+    "dni": "43210987",
+    "fechaIngreso": "2016-08-03T00:00:00Z",
+    "fechaEgreso": null,
+    "horasTrabajadas": 85,
+    "valorHora": 1600.5,
+    "cantidadProduccion": 195.0
+  },
+  {
+    "id": 7,
+    "nombre": "Rodrigo Martínez",
+    "dni": "32109876",
+    "fechaIngreso": "2015-06-17T00:00:00Z",
+    "fechaEgreso": null,
+    "horasTrabajadas": 90,
+    "valorHora": 2500.25,
+    "cantidadProduccion": 205.0
+  },
+  {
+    "id": 8,
+    "nombre": "Camila López",
+    "dni": "09876543",
+    "fechaIngreso": "2012-07-04T00:00:00Z",
+    "fechaEgreso": null,
+    "horasTrabajadas": 80,
+    "valorHora": 2000.0,
+    "cantidadProduccion": 175.0
+  }
+]
