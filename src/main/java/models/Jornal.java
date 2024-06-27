@@ -7,6 +7,9 @@ public class Jornal extends Empleado {
     private Double valorHora;
     private Double cantidadProduccion;
 
+    public Jornal() {
+    }
+
     public Jornal(Integer id, String nombre, String DNI, Date fechaIngreso, Date fechaEgreso, Integer horasTrabajadas, Double valorHora, Double cantidadProduccion) {
         super(id, nombre, DNI, fechaIngreso, fechaEgreso);
         this.horasTrabajadas = horasTrabajadas;
@@ -36,5 +39,14 @@ public class Jornal extends Empleado {
 
     public void setCantidadProduccion(Double cantidadProduccion) {
         this.cantidadProduccion = cantidadProduccion;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Horas trabajadas: ").append(getHorasTrabajadas()).append("\n");
+        sb.append("Valor hora: ").append(getValorHora()).append("\n");
+        sb.append("Cantidad de producción: ").append(getCantidadProduccion()).append("\n");
+        return super.toString() + sb;
     }
 }

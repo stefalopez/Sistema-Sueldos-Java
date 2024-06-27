@@ -1,6 +1,7 @@
 package models;
 
 import java.util.Date;
+import java.text.SimpleDateFormat;
 
 public class Empleado {
     private Integer id;
@@ -8,6 +9,9 @@ public class Empleado {
     private String dni;
     private Date fechaIngreso;
     private Date fechaEgreso;
+
+    // Definir SimpleDateFormat como estático y final para garantizar una única instancia segura
+    public static final SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
     public Empleado() {
     }
@@ -62,12 +66,17 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", dni='" + dni + '\'' +
-                ", fechaIngreso=" + fechaIngreso +
-                ", fechaEgreso=" + fechaEgreso +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("ID: ").append(id).append("\n");
+        sb.append("Nombre: ").append(nombre).append("\n");
+        sb.append("DNI: ").append(dni).append("\n");
+        sb.append("Fecha de Ingreso: ").append(dateFormat.format(fechaIngreso)).append("\n");
+        if (fechaEgreso != null) {
+            sb.append("Fecha de Egreso: ").append(dateFormat.format(fechaEgreso)).append("\n");
+        } else {
+            sb.append("Fecha de Egreso: -\n");
+        }
+        sb.append("--------------------\n");
+        return sb.toString();
     }
 }

@@ -33,6 +33,9 @@ public class Mensual extends Empleado {
 
     @Override
     public String toString() {
-        return super.toString();
+        StringBuilder sb = new StringBuilder();
+        sb.append("Basico fijo: ").append(getBasicoFijo()).append("\n");
+        sb.append("Función: ").append(getFuncion()).append("\n");
+        return super.toString() + sb;
     }
 }
