@@ -1,9 +1,12 @@
 package models;
 
 public class Recibo <T> {
-    private String periodo;
-    private Empleado empleado;
+    private String periodo; // 202406
+    private Empleado empleado; // 12345678
     private T sueldo;
+
+    public Recibo() {
+    }
 
     public Recibo(String periodo, Empleado empleado) {
         this.periodo = periodo;
