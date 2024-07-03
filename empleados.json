@@ -1,0 +1,369 @@
+[
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 1,
+    "nombre": "Laura Fernández",
+    "dni": "45678901",
+    "fechaIngreso": "10/03/2020",
+=======
+    "type": "jornal",
+    "id": 1,
+    "nombre": "Laura Fernández",
+    "dni": "45678901",
+    "fechaIngreso": "2020-03-10T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "horasTrabajadas": 80,
+    "valorHora": 2400.5,
+    "cantidadProduccion": 180.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 2,
+    "nombre": "Javier López",
+    "dni": "78901234",
+    "fechaIngreso": "20/05/2021",
+=======
+    "type": "jornal",
+    "id": 2,
+    "nombre": "Javier López",
+    "dni": "78901234",
+    "fechaIngreso": "2021-05-20T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "horasTrabajadas": 90,
+    "valorHora": 1450.25,
+    "cantidadProduccion": 200.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 3,
+    "nombre": "Martín Castro",
+    "dni": "90123456",
+    "fechaIngreso": "10/08/2019",
+=======
+    "type": "jornal",
+    "id": 3,
+    "nombre": "Martín Castro",
+    "dni": "90123456",
+    "fechaIngreso": "2019-08-10T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "horasTrabajadas": 85,
+    "valorHora": 2100.75,
+    "cantidadProduccion": 190.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 4,
+    "nombre": "Marcela Ruiz",
+    "dni": "87654321",
+    "fechaIngreso": "30/06/2020",
+=======
+    "type": "jornal",
+    "id": 4,
+    "nombre": "Marcela Ruiz",
+    "dni": "87654321",
+    "fechaIngreso": "2020-06-30T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "horasTrabajadas": 95,
+    "valorHora": 1300.99,
+    "cantidadProduccion": 210.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 5,
+    "nombre": "Pablo Medina",
+    "dni": "76543210",
+    "fechaIngreso": "12/04/2019",
+    "fechaEgreso": "17/09/2022",
+=======
+    "type": "jornal",
+    "id": 5,
+    "nombre": "Pablo Medina",
+    "dni": "76543210",
+    "fechaIngreso": "2019-04-12T00:00:00Z",
+    "fechaEgreso": "2022-09-17T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "horasTrabajadas": 75,
+    "valorHora": 2800.99,
+    "cantidadProduccion": 170.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 6,
+    "nombre": "Alejandra Gutiérrez",
+    "dni": "43210987",
+    "fechaIngreso": "03/08/2016",
+=======
+    "type": "jornal",
+    "id": 6,
+    "nombre": "Alejandra Gutiérrez",
+    "dni": "43210987",
+    "fechaIngreso": "2016-08-03T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "horasTrabajadas": 85,
+    "valorHora": 1600.5,
+    "cantidadProduccion": 195.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 7,
+    "nombre": "Rodrigo Martínez",
+    "dni": "32109876",
+    "fechaIngreso": "17/06/2015",
+=======
+    "type": "jornal",
+    "id": 7,
+    "nombre": "Rodrigo Martínez",
+    "dni": "32109876",
+    "fechaIngreso": "2015-06-17T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "horasTrabajadas": 90,
+    "valorHora": 2500.25,
+    "cantidadProduccion": 205.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "j",
+    "tipoEmpleado": "Jornal",
+    "id": 8,
+    "nombre": "Camila López",
+    "dni": "49876543",
+    "fechaIngreso": "04/07/2012",
+=======
+    "type": "jornal",
+    "id": 8,
+    "nombre": "Camila López",
+    "dni": "09876543",
+    "fechaIngreso": "2012-07-04T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "horasTrabajadas": 80,
+    "valorHora": 2000.0,
+    "cantidadProduccion": 175.0
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 9,
+    "nombre": "Juan Pérez",
+    "dni": "12345678",
+    "fechaIngreso": "26/06/2023",
+=======
+    "type": "mensual",
+    "id": 9,
+    "nombre": "Juan Pérez",
+    "dni": "12345678",
+    "fechaIngreso": "2023-06-26T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 1400000.0,
+    "funcion": "Direccion"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 10,
+    "nombre": "María García",
+    "dni": "23456789",
+    "fechaIngreso": "15/11/2022",
+=======
+    "type": "mensual",
+    "id": 10,
+    "nombre": "María García",
+    "dni": "23456789",
+    "fechaIngreso": "2022-11-15T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 1000000.0,
+    "funcion": "Administracion"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 11,
+    "nombre": "Carlos Rodríguez",
+    "dni": "34567890",
+    "fechaIngreso": "03/07/2021",
+=======
+    "type": "mensual",
+    "id": 11,
+    "nombre": "Carlos Rodríguez",
+    "dni": "34567890",
+    "fechaIngreso": "2021-07-03T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 1050000.0,
+    "funcion": "Sistemas"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 12,
+    "nombre": "Pedro Gómez",
+    "dni": "56789012",
+    "fechaIngreso": "28/09/2019",
+=======
+    "type": "mensual",
+    "id": 12,
+    "nombre": "Pedro Gómez",
+    "dni": "56789012",
+    "fechaIngreso": "2019-09-28T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 650000.0,
+    "funcion": "Marketing"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 13,
+    "nombre": "Ana Martínez",
+    "dni": "67890123",
+    "fechaIngreso": "15/01/2022",
+    "fechaEgreso": "12/01/2024",
+=======
+    "type": "mensual",
+    "id": 13,
+    "nombre": "Ana Martínez",
+    "dni": "67890123",
+    "fechaIngreso": "2022-01-15T00:00:00Z",
+    "fechaEgreso": "2024-01-12T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "basicoFijo": 530000.0,
+    "funcion": "Capacitador"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 14,
+    "nombre": "Lucía Ramírez",
+    "dni": "89012345",
+    "fechaIngreso": "02/11/2020",
+=======
+    "type": "mensual",
+    "id": 14,
+    "nombre": "Lucía Ramírez",
+    "dni": "89012345",
+    "fechaIngreso": "2020-11-02T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 680000.0,
+    "funcion": "RRHH"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 15,
+    "nombre": "Diego Sánchez",
+    "dni": "98765432",
+    "fechaIngreso": "18/02/2021",
+=======
+    "type": "mensual",
+    "id": 15,
+    "nombre": "Diego Sánchez",
+    "dni": "98765432",
+    "fechaIngreso": "2021-02-18T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 900000.0,
+    "funcion": "Administracion"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 16,
+    "nombre": "Carolina López",
+    "dni": "65432109",
+    "fechaIngreso": "25/10/2018",
+=======
+    "type": "mensual",
+    "id": 16,
+    "nombre": "Carolina López",
+    "dni": "65432109",
+    "fechaIngreso": "2018-10-25T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 1350000.0,
+    "funcion": "Direccion"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 17,
+    "nombre": "Ricardo Fernández",
+    "dni": "54321098",
+    "fechaIngreso": "08/11/2017",
+=======
+    "type": "mensual",
+    "id": 17,
+    "nombre": "Ricardo Fernández",
+    "dni": "54321098",
+    "fechaIngreso": "2017-11-08T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+    "fechaEgreso": null,
+    "basicoFijo": 1180000.0,
+    "funcion": "Sistemas"
+  },
+  {
+<<<<<<< HEAD
+    "type": "m",
+    "tipoEmpleado": "Mensual",
+    "id": 18,
+    "nombre": "Florencia Silva",
+    "dni": "21098765",
+    "fechaIngreso": "24/04/2014",
+    "fechaEgreso": null,
+    "basicoFijo": 600000.0,
+    "funcion": "Marketing"
+  }
+]
+=======
+    "type": "mensual",
+    "id": 18,
+    "nombre": "Florencia Silva",
+    "dni": "21098765",
+    "fechaIngreso": "2014-04-24T00:00:00Z",
+    "fechaEgreso": null,
+    "basicoFijo": 600000.0,
+    "funcion": "Marketing"
+  },
+  {
+    "type": "mensual",
+    "id": 19,
+    "nombre": "Gonzalo Pérez",
+    "dni": "10987654",
+    "fechaIngreso": "2013-01-09T00:00:00Z",
+    "fechaEgreso": "2017-06-23T00:00:00Z",
+    "basicoFijo": 450000.0,
+    "funcion": "Capacitador"
+  }
+]
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b

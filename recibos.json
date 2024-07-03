@@ -1,0 +1,142 @@
+[
+  {
+<<<<<<< HEAD
+    "periodo": "06/2024",
+    "empleado": {
+      "type": "m",
+      "tipoEmpleado": "Mensual",
+      "id": 9,
+      "nombre": "Juan Pérez",
+      "dni": "12345678",
+      "fechaIngreso": "26/06/2023",
+=======
+    "periodo": "2024-06",
+    "empleado": {
+      "type": "mensual",
+      "id": 9,
+      "nombre": "Juan Pérez",
+      "dni": "12345678",
+      "fechaIngreso": "2023-06-26T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+      "fechaEgreso": null,
+      "basicoFijo": 1400000.0,
+      "funcion": "Direccion"
+    },
+    "sueldo": {
+<<<<<<< HEAD
+      "type": "m",
+      "basico": 1400000.0,
+      "descuentos": 238000.0,
+      "adicionalFuncion": 300000.0
+    }
+  },
+  {
+    "periodo": "01/2023",
+    "empleado": {
+      "type": "m",
+      "tipoEmpleado": "Mensual",
+      "id": 10,
+      "nombre": "María García",
+      "dni": "23456789",
+      "fechaIngreso": "15/11/2022",
+=======
+      "basico": 1400000.0,
+      "descuentos": 200000.0,
+      "adicionalFuncion": 50000.0
+    }
+  },
+  {
+    "periodo": "2024-06",
+    "empleado": {
+      "type": "mensual",
+      "id": 10,
+      "nombre": "María García",
+      "dni": "23456789",
+      "fechaIngreso": "2022-11-15T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+      "fechaEgreso": null,
+      "basicoFijo": 1000000.0,
+      "funcion": "Administracion"
+    },
+    "sueldo": {
+<<<<<<< HEAD
+      "type": "m",
+      "basico": 1000000.0,
+      "descuentos": 170000.0,
+      "adicionalFuncion": 150000.0
+    }
+  },
+  {
+    "periodo": "03/2024",
+    "empleado": {
+      "type": "j",
+      "tipoEmpleado": "Jornal",
+      "id": 1,
+      "nombre": "Laura Fernández",
+      "dni": "45678901",
+      "fechaIngreso": "10/03/2020",
+=======
+      "basico": 1000000.0,
+      "descuentos": 150000.0,
+      "adicionalFuncion": 30000.0
+    }
+  },
+  {
+    "periodo": "2024-06",
+    "empleado": {
+      "type": "jornal",
+      "id": 1,
+      "nombre": "Laura Fernández",
+      "dni": "45678901",
+      "fechaIngreso": "2020-03-10T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+      "fechaEgreso": null,
+      "horasTrabajadas": 80,
+      "valorHora": 2400.5,
+      "cantidadProduccion": 180.0
+    },
+    "sueldo": {
+<<<<<<< HEAD
+      "type": "j",
+=======
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+      "basico": 192040.0,
+      "descuentos": 20000.0,
+      "bonificacionProduccion": 18000.0
+    }
+  },
+  {
+<<<<<<< HEAD
+    "periodo": "06/2024",
+    "empleado": {
+      "type": "j",
+      "tipoEmpleado": "Jornal",
+      "id": 2,
+      "nombre": "Javier López",
+      "dni": "78901234",
+      "fechaIngreso": "20/05/2021",
+=======
+    "periodo": "2024-06",
+    "empleado": {
+      "type": "jornal",
+      "id": 2,
+      "nombre": "Javier López",
+      "dni": "78901234",
+      "fechaIngreso": "2021-05-20T00:00:00Z",
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+      "fechaEgreso": null,
+      "horasTrabajadas": 90,
+      "valorHora": 1450.25,
+      "cantidadProduccion": 200.0
+    },
+    "sueldo": {
+<<<<<<< HEAD
+      "type": "j",
+=======
+>>>>>>> 5fa23b38e330003b9e7f64b5c2563b52b776476b
+      "basico": 130522.5,
+      "descuentos": 15000.0,
+      "bonificacionProduccion": 20000.0
+    }
+  }
+]
